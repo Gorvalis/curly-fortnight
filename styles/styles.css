@@ -1,7 +1,4 @@
-body{height:100vh;
-    display:grid;
-    grid-template-rows: auto 1fr auto auto auto 3fr auto;
-    
+body{
 }
 
 glogo {
@@ -14,8 +11,15 @@ header {
 }
 footer {
     display:flex;
-    justify-content:space-between;
-
+align-items: flex-start;
+}
+spac{
+min-width: 10%;
+max-width: 20%;
+}
+secondfooter{
+display:flex;
+align-items: flex-start;
 }
 sbuttons{
     display:grid;
