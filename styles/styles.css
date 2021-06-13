@@ -2,12 +2,13 @@ body{
 }
 
 glogo {
+    width:50px;
     display: grid;
     place-items: center;
 }
-header {
+headertop{
     display:grid;
-    grid-template-columns: repeat(2,auto) 1fr repeat(4,auto);
+    grid-template-columns: 10% 30% 1fr 5% 5%;
 }
 footer {
     display:flex;
